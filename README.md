@@ -49,6 +49,7 @@ If you have any other questions not listed here, please raise a PR to have it ad
 ## GitHub FAQ
 
 - Q: How can I see who wrote a specific line in a file, so that I can __blame__ the right person?
+- A: 'Git blame <filename>' can ensure the correct person is punished accordingly.
 
 - Q: How can I add collaborators to this project?
 
