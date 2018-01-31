@@ -25,6 +25,7 @@ If you have any other questions not listed here, please raise a PR to have it ad
 - Q: How can I `add` only parts of a file I've changed?
 
 - Q: How can I __revert__ a commit?
+- A: Use `git reset HEAD~`.
 
 - Q: I keep accidentally adding files I don't want to commit (e.g. compiled code, files with passwords etc.), how can I __ignore__ these files?
 
