@@ -12,7 +12,9 @@ If you have any other questions not listed here, please raise a PR to have it ad
 
 - Q: Can I see a __log__ of the commits that have been made on this repository?
 
-- Q: What are some Graphical User Interfaces(GUI, pronounced "gooey") that I can use with Git?
+- Q: What are some Graphical User Interfaces(GUI, pronounced "gooey") that I can use with Git? 
+
+- A: GitKraken, SourceTree, Git
 
 - Q: I have accidentally staged something I don't want to commit. Can I __reset__ only that file?
 
