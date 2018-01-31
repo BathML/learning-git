@@ -26,12 +26,12 @@ If you have any other questions not listed here, please raise a PR to have it ad
 
 - Q: How can I __revert__ a commit?
 
-$ git commit -m "Something terribly misguided"              (1).
-$ git reset HEAD~                                           (2).
-<< edit files as necessary >>                               (3).
-$ git add ...                                               (4).
-$ git commit -c ORIG_HEAD                                   (5).
-comment from: https://stackoverflow.com/questions/927358/how-to-undo-the-most-recent-commits-in-git.
+`$ git commit -m "Something terribly misguided"              (1).`
+`$ git reset HEAD~                                           (2).`
+`<< edit files as necessary >>                               (3).`
+`$ git add ...                                               (4).`
+`$ git commit -c ORIG_HEAD                                   (5).`
+`comment from: https://stackoverflow.com/questions/927358/how-to-undo-the-most-recent-commits-in-git.`
 
 
 - Q: I keep accidentally adding files I don't want to commit (e.g. compiled code, files with passwords etc.), how can I __ignore__ these files?
