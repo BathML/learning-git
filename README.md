@@ -10,6 +10,7 @@ If you have any other questions not listed here, please raise a PR to have it ad
 HELEN GORE CHANGE!!
 
 - Q: I made a typo in my commit message, how can I __amend__ it?
+- A: `git commit --amend` allows you to change the last commit message. You can add a `-m "commit message"` to add a message at the same time.
 
 - Q: Can I see a __log__ of the commits that have been made on this repository?
 
@@ -20,6 +21,7 @@ HELEN GORE CHANGE!!
 - Q: I would like to see what the repo looked like at a given version. How can i __checkout__ that version?
 
 - Q: How can I see a __diff__ of what's changed in the files I've changed but not committed? How about just the files I've staged?
+- A: `git diff` shows the unstaged changes. `git diff --cached` shows the staged changes.
 
 - Q: Can Git __show__ me what's changed in the previous commit?
 
