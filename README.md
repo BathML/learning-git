@@ -8,9 +8,10 @@ If you have any other questions not listed here, please raise a PR to have it ad
 ## Git FAQ
 
 - Q: I made a typo in my commit message, how can I __amend__ it?
-making a silly change
+
 
 - Q: Can I see a __log__ of the commits that have been made on this repository?
+- A: `git log`
 
 - Q: What are some Graphical User Interfaces(GUI, pronounced "gooey") that I can use with Git?
 
