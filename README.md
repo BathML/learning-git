@@ -14,7 +14,9 @@ HELEN GORE CHANGE!!
 
 - Q: Can I see a __log__ of the commits that have been made on this repository?
 
-- Q: What are some Graphical User Interfaces(GUI, pronounced "gooey") that I can use with Git?
+- Q: What are some Graphical User Interfaces(GUI, pronounced "gooey") that I can use with Git? 
+
+- A: GitKraken, SourceTree, Git
 
 - Q: I have accidentally staged something I don't want to commit. Can I __reset__ only that file?
 
@@ -28,6 +30,7 @@ HELEN GORE CHANGE!!
 - Q: How can I `add` only parts of a file I've changed?
 
 - Q: How can I __revert__ a commit?
+- A: Use `git reset HEAD~`.
 
 - Q: I keep accidentally adding files I don't want to commit (e.g. compiled code, files with passwords etc.), how can I __ignore__ these files?
 
