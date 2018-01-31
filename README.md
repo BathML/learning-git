@@ -18,6 +18,7 @@ If you have any other questions not listed here, please raise a PR to have it ad
 - Q: I would like to see what the repo looked like at a given version. How can i __checkout__ that version?
 
 - Q: How can I see a __diff__ of what's changed in the files I've changed but not committed? How about just the files I've staged?
+- A: `git diff` shows the unstaged changes. `git diff --cached` shows the staged changes.
 
 - Q: Can Git __show__ me what's changed in the previous commit?
 
