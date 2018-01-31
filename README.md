@@ -8,6 +8,7 @@ If you have any other questions not listed here, please raise a PR to have it ad
 ## Git FAQ
 
 - Q: I made a typo in my commit message, how can I __amend__ it?
+- A: `git commit --amend` allows you to change the last commit message.
 
 - Q: Can I see a __log__ of the commits that have been made on this repository?
 
