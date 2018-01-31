@@ -7,6 +7,8 @@ If you have any other questions not listed here, please raise a PR to have it ad
 
 ## Git FAQ
 
+HELEN GORE CHANGE!!
+
 - Q: I made a typo in my commit message, how can I __amend__ it?
 
 - Q: Can I see a __log__ of the commits that have been made on this repository?
