@@ -8,6 +8,7 @@ If you have any other questions not listed here, please raise a PR to have it ad
 ## Git FAQ
 
 - Q: I made a typo in my commit message, how can I __amend__ it?
+making a silly change
 
 - Q: Can I see a __log__ of the commits that have been made on this repository?
 
@@ -20,6 +21,7 @@ If you have any other questions not listed here, please raise a PR to have it ad
 - Q: How can I see a __diff__ of what's changed in the files I've changed but not committed? How about just the files I've staged?
 
 - Q: Can Git __show__ me what's changed in the previous commit?
+- A: type in git diff
 
 - Q: How can I `add` only parts of a file I've changed?
 
