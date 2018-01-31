@@ -11,6 +11,7 @@ If you have any other questions not listed here, please raise a PR to have it ad
 - A: `git commit --amend` allows you to change the last commit message. You can add a `-m "commit message"` to add a message at the same time.
 
 - Q: Can I see a __log__ of the commits that have been made on this repository?
+- A: `git log`
 
 - Q: What are some Graphical User Interfaces(GUI, pronounced "gooey") that I can use with Git? 
 
@@ -24,6 +25,7 @@ If you have any other questions not listed here, please raise a PR to have it ad
 - A: `git diff` shows the unstaged changes. `git diff --cached` shows the staged changes.
 
 - Q: Can Git __show__ me what's changed in the previous commit?
+- A: Type in `git show`.
 
 - Q: How can I `add` only parts of a file I've changed?
 
