@@ -18,7 +18,7 @@ If you have any other questions not listed here, please raise a PR to have it ad
 - A: GitKraken, SourceTree, Git
 
 - Q: I have accidentally staged something I don't want to commit. Can I __reset__ only that file?
-- A: Yes. To unstage a file type `git reset HEAD <filename>`. You can leave 'HEAD' out as it is implicit.
+- A: Yes. To unstage a file type `git reset HEAD <filename>`. You can leave `HEAD` out as it is implicit.
 
 - Q: I would like to see what the repo looked like at a given version. How can i __checkout__ that version?
 
