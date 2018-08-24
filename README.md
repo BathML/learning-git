@@ -35,6 +35,7 @@ If you have any other questions not listed here, please raise a PR to have it ad
 - Q: I keep accidentally adding files I don't want to commit (e.g. compiled code, files with passwords etc.), how can I __ignore__ these files?
 
 - Q: What's the difference between `git pull` and `git fetch`?
+- A: git pull = git fetch + merge. git pull gathers commits from the target branch and automatically merges them with your current branch. git fetch gathers commits from the target branch and stores them in your local repository. It does not merge these commits with the commits in your current branch. To integrate the commits into your current branch use merge. git fetch is useful if you want to review any updates to the target branch before merging them with your own. It makes it easier to spot and fix any conflicts that may occur during the merge.
 
 - Q: How can I __clean__ the repo of any untracked files, i.e. removing new, unstaged files without manually `rm`ing all of them?
 
