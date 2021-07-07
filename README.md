@@ -32,6 +32,14 @@ If you have any other questions not listed here, please raise a PR to have it ad
 - Q: How can I __revert__ a commit?
 - A: Use `git revert HEAD`. When you `revert` a commit, you are actually _making a new commit_ which just reverses the changes. You should use this if you've already pushed your changes to a remote - otherwise, see `git reset`.
 
+`$ git commit -m "Something terribly misguided"              (1).`
+`$ git reset HEAD~                                           (2).`
+`<< edit files as necessary >>                               (3).`
+`$ git add ...                                               (4).`
+`$ git commit -c ORIG_HEAD                                   (5).`
+`comment from: https://stackoverflow.com/questions/927358/how-to-undo-the-most-recent-commits-in-git.`
+
+
 - Q: I keep accidentally adding files I don't want to commit (e.g. compiled code, files with passwords etc.), how can I __ignore__ these files?
 
 - Q: What's the difference between `git pull` and `git fetch`?
